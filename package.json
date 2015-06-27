@@ -1,0 +1,23 @@
+{
+  "name": "MLapp",
+  "version": "1.0.0",
+  "description": "Marshawn Lynch App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ATLboyz/MLapp.git"
+  },
+  "author": "AwkwardCrow & Radiobeat33",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATLboyz/MLapp/issues"
+  },
+  "homepage": "https://github.com/ATLboyz/MLapp",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
