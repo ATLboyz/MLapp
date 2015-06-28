@@ -1,0 +1,18 @@
+img
+{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+#football
+{
+   z-index: 10;
+}
+#triangle
+{
+   height: 60%;
+   width: 50%;
+   top: 60%;
+   left: 56%;
+   z-index: 20;
+}
