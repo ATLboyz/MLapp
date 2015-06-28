@@ -1,10 +1,10 @@
-var app = angular.module('app', ['ui.router']);
+var app = angular.module('app', ['ui.router', 'ngAudio']);
   app.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise("/");
     $stateProvider
       .state('main', {
         url: "/",
-        templateUrl: "/views/main.html"
+        templateUrl: "views/main.html"
       })
   });
   app.controller('indexController', function($scope){
